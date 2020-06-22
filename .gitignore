@@ -1,0 +1,5 @@
+vendor/
+logs/app.log
+nbproject/
+phinx.yml
+Config.php

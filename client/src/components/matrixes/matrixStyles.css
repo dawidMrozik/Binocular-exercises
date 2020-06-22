@@ -1,0 +1,17 @@
+.point {
+  width: 1.8vw;
+  height: 1.8vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.grid-container {
+  width: 100%;
+  display: grid;
+  padding: 30px 20px;
+  justify-content: space-around;
+  grid-template-rows: repeat(16, 1fr);
+  grid-template-columns: repeat(21, 1fr);
+  row-gap: 1em;
+}
